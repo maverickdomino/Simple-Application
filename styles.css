@@ -1,0 +1,14 @@
+body {
+	background-color: PeachPuff ;
+	padding: 10px;
+}
+
+th {
+	background-color: #005599;
+	color: white;
+}
+
+
+table,td,th {
+	text-align: center;
+}

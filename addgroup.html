@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<title>Add group</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<ul class='pager'>
+  <li class='previous'><a href='grouplist.php'>Back to group list</a></li>
+</ul>
+
+<form action="addgroup.php" method="post">
+<div class="form-group">
+<label for="group_name">Group name:</label>
+<input type="text" class="form-control" id="group_name" placeholder="Enter group name" name="group_name" required maxlength="30">
+</div>
+<button type="submit" class="btn btn-primary btn-lg btn-block">Create</button>
+
+</form>
+</body>
+</html>
